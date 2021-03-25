@@ -78,3 +78,7 @@ a[href$=".doc"] {
 a[href$=".ppt"] {
   background: transparent url(images/ppt.png) top left no-repeat;
 }
+div.window > a:last-child {
+  /*afin d'enlever le fond ppt qui est sur le mot cour */
+  background: none;
+}
